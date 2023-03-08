@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { api, handleError } from "helpers/api";
-import User from "models/User";
 import { useParams, useHistory } from "react-router-dom";
 import { Button } from "components/ui/Button";
 import "styles/views/Login.scss";
@@ -54,7 +53,7 @@ const Profile = () => {
       }
     };
     getUser();
-  }, []);
+  }, [id]);
 
   let content = <div>{console.log(user)}</div>;
 
