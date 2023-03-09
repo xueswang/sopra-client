@@ -55,7 +55,7 @@ const Profile = () => {
       }
     };
     getUser();
-  }, [id]);
+  }, [id, history]);
 
   let content = <div>{console.log(user)}</div>;
 
