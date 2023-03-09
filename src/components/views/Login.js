@@ -54,7 +54,7 @@ const Login = () => {
       // Login successfully worked --> navigate to the route /game in the GameRouter
       history.push(`/game`);
     } catch (error) {
-      alert(`Something went wrong during the login: \n${handleError(error)}`);
+      alert(`Something went wrong during login: \n${handleError(error)}`);
     }
   };
 

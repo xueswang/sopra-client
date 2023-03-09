@@ -50,7 +50,7 @@ const Profile = () => {
 
         setUser(response.data);
       } catch (error) {
-        alert(`Something went wrong during the login: \n${handleError(error)}`);
+        alert(`Oops, something went wrong: \n${handleError(error)}`);
         history.push(`/game`);
       }
     };

@@ -47,7 +47,7 @@ const Game = () => {
 
         await api.put(`/users/${localStorage.userId}`, requestBody);
       } catch (error) {
-        alert(`Something went wrong during the login: \n${handleError(error)}`);
+        alert(`Oops, something went wrong: \n${handleError(error)}`);
       }
     };
     getOffline();
