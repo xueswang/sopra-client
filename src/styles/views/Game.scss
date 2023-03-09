@@ -55,6 +55,14 @@
     margin-right: 10px;
     font-family: $fontMono;
     font-weight: 500;
-    color: aquamarine;
+    color: $accent;
   }
+}
+
+a:visited {
+  color: $background;
+}
+
+a:link{
+  color: $background;
 }

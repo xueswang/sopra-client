@@ -19,7 +19,7 @@ const FormField = (props) => {
       <label className="login label">{props.label}</label>
       <input
         className="login input"
-        placeholder="enter here.."
+        placeholder="please enter here..."
         value={props.value}
         type={props.type}
         onChange={(e) => props.onChange(e.target.value)}

@@ -13,7 +13,7 @@ const FormField = (props) => {
       <label className="login label">{props.label}</label>
       <input
         className="login input"
-        placeholder="enter here.."
+        placeholder="enter here..."
         value={props.value}
         type={props.type}
         onChange={(e) => props.onChange(e.target.value)}
@@ -78,7 +78,7 @@ const Register = () => {
             onChange={(e) => setPassword(e)}
           />
           <FormField
-            label="retype your password"
+            label="please retype your password"
             value={retype}
             type="password"
             onChange={(e) => setRetype(e)}

@@ -14,13 +14,13 @@
     justify-content: center;
     width: 60%;
     max-width: 30em;
-    height: 30em;
-    font-size: 15px;
+    height: 27.5em;
+    font-size: 16px;
     font-weight: 300;
-    padding-left: 37px;
-    padding-right: 37px;
-    padding-top: 37px;
-    padding-bottom: 37px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-radius: 0.75em;
     background-color: $background;
     transition: opacity 0.5s ease, transform 0.5s ease;
@@ -32,10 +32,12 @@
     justify-content: center;
   }
   &.input {
-    height: 25px;
-    padding: 5px;
-    // margin-left: -4px;
-    margin-bottom: 10px;
+    height: 30px;
+    padding: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     border: none;
     border-radius: 0.75em;
     background: transparentize(white, 0.85);
@@ -43,7 +45,8 @@
   }
   &.label {
     color: $textColor;
-    margin-bottom: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     text-transform: lowercase;
     font-weight: 300;
   }

@@ -18,6 +18,7 @@ const FormField = (props) => {
       <label className="login label">{props.label}</label>
       <input
         className="login input"
+        type={props.type}
         placeholder={props.placeholder}
         value={props.value}
         disabled={props.disabled}
@@ -109,6 +110,7 @@ const Profile = () => {
           />
           <FormField
             label="birth date"
+            type={edit ? "date" : "text"}
             value={birthday}
             placeholder={
               !user.birthday ? "birthday to be edited" : user.birthday
